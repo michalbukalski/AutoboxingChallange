@@ -23,6 +23,8 @@ public class Main {
         bank.addTransaction("Jane A", -10.25);
         bank.addTransaction("Jane A", -75.01);
         bank.printStatement("Jane a");
+
+        bank.addTransaction("Bob S", 100);
     }
 }
 
