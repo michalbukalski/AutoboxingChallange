@@ -25,6 +25,12 @@ public class Main {
         bank.printStatement("Jane a");
 
         bank.addTransaction("Bob S", 100);
+        bank.printStatement("Bob S");
+
+        bank.addNewCustomer("Michal B", 25);
+        bank.addTransaction("Michal B", 1500);
+        bank.addTransaction("Michal B", -56.00);
+        bank.printStatement("Michal B");
     }
 }
 
